@@ -23,6 +23,8 @@ i{
     pointer-events: none;
     animation: animate 2s linear forwards;
 }
+
+
 @keyframes animate{
     0%
     {
@@ -32,4 +34,13 @@ i{
     {
         opacity: 0;
     }
-  }
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
